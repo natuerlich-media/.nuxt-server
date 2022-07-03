@@ -30,7 +30,7 @@ export default {
 
   modules: [
     '@nuxtjs/axios',
-    '@nuxt/image',
+    '@nuxt/image'
   ],
 
   axios: {
@@ -44,7 +44,7 @@ export default {
       minifyJS: true,
       removeComments: true,
       removeEmptyElements: true,
-      minify: true,
+      minify: true
     },
     cssSourceMap: true,
     optimization: {
